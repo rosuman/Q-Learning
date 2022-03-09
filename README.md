@@ -9,4 +9,4 @@ Once the robot is trained to avoid the obstacles, the final Q Table is used to m
 
 To run the code, make sure turtlebot3 package and all its dependencies are installed. This can be done by going [here](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/). Select 'foxy' and run the appropriate commands. Or watch [this](https://www.youtube.com/watch?v=8w3xhG1GPdo) how to do.
 
-From the home directory <code>name@ubuntu:~$<code> clone the ropository.
+From the home directory <code>name@ubuntu:~$</code> clone the ropository.
