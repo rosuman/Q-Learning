@@ -1,0 +1,53 @@
+[0.245s] Invoking command in '/home/suman/Q-learning/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/suman/Q-learning/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/suman/Q-learning/install/turtlebot3_navigation2
+[0.310s] -- The C compiler identification is GNU 9.4.0
+[0.372s] -- The CXX compiler identification is GNU 9.4.0
+[0.377s] -- Check for working C compiler: /usr/bin/cc
+[0.461s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.462s] -- Detecting C compiler ABI info
+[0.546s] -- Detecting C compiler ABI info - done
+[0.561s] -- Detecting C compile features
+[0.561s] -- Detecting C compile features - done
+[0.564s] -- Check for working CXX compiler: /usr/bin/c++
+[0.682s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.684s] -- Detecting CXX compiler ABI info
+[0.789s] -- Detecting CXX compiler ABI info - done
+[0.801s] -- Detecting CXX compile features
+[0.801s] -- Detecting CXX compile features - done
+[0.804s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.838s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.838s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.159s] -- Configuring done
+[1.161s] -- Generating done
+[1.163s] -- Build files have been written to: /home/suman/Q-learning/build/turtlebot3_navigation2
+[1.185s] Invoked command in '/home/suman/Q-learning/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/suman/Q-learning/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/suman/Q-learning/install/turtlebot3_navigation2
+[1.185s] Invoking command in '/home/suman/Q-learning/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suman/Q-learning/build/turtlebot3_navigation2 -- -j12 -l12
+[1.237s] Invoked command in '/home/suman/Q-learning/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suman/Q-learning/build/turtlebot3_navigation2 -- -j12 -l12
+[1.265s] Invoking command in '/home/suman/Q-learning/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suman/Q-learning/build/turtlebot3_navigation2
+[1.274s] -- Install configuration: ""
+[1.274s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[1.274s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[1.274s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[1.274s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
+[1.274s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
+[1.274s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[1.274s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.275s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.276s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[1.276s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[1.276s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.276s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.276s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.277s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.277s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[1.277s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.277s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[1.277s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.278s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.279s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.279s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[1.280s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[1.280s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.280s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.280s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.280s] -- Installing: /home/suman/Q-learning/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[1.315s] Invoked command in '/home/suman/Q-learning/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suman/Q-learning/build/turtlebot3_navigation2

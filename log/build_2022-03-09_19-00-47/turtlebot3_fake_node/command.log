@@ -1,0 +1,6 @@
+Invoking command in '/home/suman/Q-learning/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/suman/Q-learning/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/suman/Q-learning/install/turtlebot3_fake_node
+Invoked command in '/home/suman/Q-learning/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/suman/Q-learning/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/suman/Q-learning/install/turtlebot3_fake_node
+Invoking command in '/home/suman/Q-learning/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suman/Q-learning/build/turtlebot3_fake_node -- -j12 -l12
+Invoked command in '/home/suman/Q-learning/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suman/Q-learning/build/turtlebot3_fake_node -- -j12 -l12
+Invoking command in '/home/suman/Q-learning/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suman/Q-learning/build/turtlebot3_fake_node
+Invoked command in '/home/suman/Q-learning/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suman/Q-learning/build/turtlebot3_fake_node

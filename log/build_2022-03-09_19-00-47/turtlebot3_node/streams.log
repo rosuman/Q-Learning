@@ -1,0 +1,93 @@
+[0.054s] Invoking command in '/home/suman/Q-learning/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/suman/Q-learning/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/suman/Q-learning/install/turtlebot3_node
+[0.278s] -- The C compiler identification is GNU 9.4.0
+[0.320s] -- The CXX compiler identification is GNU 9.4.0
+[0.325s] -- Check for working C compiler: /usr/bin/cc
+[0.407s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.408s] -- Detecting C compiler ABI info
+[0.490s] -- Detecting C compiler ABI info - done
+[0.504s] -- Detecting C compile features
+[0.505s] -- Detecting C compile features - done
+[0.509s] -- Check for working CXX compiler: /usr/bin/c++
+[0.612s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.613s] -- Detecting CXX compiler ABI info
+[0.721s] -- Detecting CXX compiler ABI info - done
+[0.733s] -- Detecting CXX compile features
+[0.734s] -- Detecting CXX compile features - done
+[0.741s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.772s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.772s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.042s] -- Found dynamixel_sdk: 3.7.40 (/opt/ros/foxy/share/dynamixel_sdk/cmake)
+[1.046s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.090s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.100s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.230s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.270s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.393s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.477s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[1.481s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.550s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.599s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.601s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.603s] -- Looking for pthread.h
+[1.687s] -- Looking for pthread.h - found
+[1.688s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.765s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.765s] -- Looking for pthread_create in pthreads
+[1.826s] -- Looking for pthread_create in pthreads - not found
+[1.826s] -- Looking for pthread_create in pthread
+[1.902s] -- Looking for pthread_create in pthread - found
+[1.902s] -- Found Threads: TRUE  
+[2.045s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.117s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.134s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[2.144s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.454s] -- Found turtlebot3_msgs: 2.2.1 (/opt/ros/foxy/share/turtlebot3_msgs/cmake)
+[2.610s] -- Configuring done
+[2.633s] -- Generating done
+[2.635s] -- Build files have been written to: /home/suman/Q-learning/build/turtlebot3_node
+[2.649s] Invoked command in '/home/suman/Q-learning/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/suman/Q-learning/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/suman/Q-learning/install/turtlebot3_node
+[2.653s] Invoking command in '/home/suman/Q-learning/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suman/Q-learning/build/turtlebot3_node -- -j12 -l12
+[2.691s] [35m[1mScanning dependencies of target turtlebot3_node_lib[0m
+[2.764s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[2.764s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[2.765s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[2.773s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[2.773s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[2.773s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[2.773s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[2.775s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[2.775s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[2.776s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[2.776s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[18.702s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[18.945s] [ 85%] Built target turtlebot3_node_lib
+[18.955s] [35m[1mScanning dependencies of target turtlebot3_ros[0m
+[18.995s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[21.609s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[22.929s] [100%] Built target turtlebot3_ros
+[22.943s] Invoked command in '/home/suman/Q-learning/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suman/Q-learning/build/turtlebot3_node -- -j12 -l12
+[22.985s] Invoking command in '/home/suman/Q-learning/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suman/Q-learning/build/turtlebot3_node
+[22.994s] -- Install configuration: ""
+[22.994s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/param
+[22.994s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[22.994s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[22.994s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[22.994s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[23.000s] -- Set runtime path of "/home/suman/Q-learning/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros" to ""
+[23.001s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[23.001s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[23.001s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[23.001s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[23.001s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[23.001s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[23.001s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[23.001s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[23.001s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[23.001s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[23.001s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[23.001s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[23.001s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.001s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[23.001s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[23.001s] -- Installing: /home/suman/Q-learning/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[23.005s] Invoked command in '/home/suman/Q-learning/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suman/Q-learning/build/turtlebot3_node
