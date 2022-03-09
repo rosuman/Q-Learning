@@ -15,7 +15,7 @@ To run the code, make sure turtlebot3 package and all its dependencies are insta
 <code> cd Q-Learning </code>
 
 * Build the package:
-* 
+ 
   <code>colcon build --symlink-install</code>
 
   <code> . install/local_setup.bash </code>
@@ -23,18 +23,21 @@ To run the code, make sure turtlebot3 package and all its dependencies are insta
   <code> export TURTLEBOT3_MODEL=burger </code>
 
 * Now launch the training environment in gazebo:
-*  
+  
   <code> ros2 launch turtlebot3_gazebo training.launch.py </code>
 
 * Next run the q_learning node:
-* 
+ 
     for that open the new terminal and type
+    
   <code> . install/local_setup.bash </code>
+  
   <code> export TURTLEBOT3_MODEL=burger </code>
+  
   <code> ros2 run turtlebot3_gazebo q_learning </code>
 
 * After training quit the q_learning node as well as training environment of gazebo and launch demo environment along with run the run_demo node:
-* 
+
 From the first terminal 
 
   <code> <code> ros2 launch turtlebot3_gazebo demo.launch.py </code>
