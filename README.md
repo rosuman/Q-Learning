@@ -40,7 +40,7 @@ To run the code, make sure turtlebot3 package and all its dependencies are insta
 
 From the first terminal 
 
-  <code> <code> ros2 launch turtlebot3_gazebo demo.launch.py </code>
+  <code> ros2 launch turtlebot3_gazebo demo.launch.py </code>
   
 From second terminal
   
